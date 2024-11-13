@@ -14,5 +14,5 @@ Rails.application.routes.draw do
     root to: 'admin#index', as: :admin_dashboard
   end
 
-  get 'admins', to: 'admin#index' # creates a path /admins that correcponds to admin#index action
+  get 'admins', to: 'admin#index' # creates a path /admins that correcponds to admin#index action, as admins_path
 end
